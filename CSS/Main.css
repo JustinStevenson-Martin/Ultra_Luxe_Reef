@@ -1,0 +1,184 @@
+/* Index page CSS */
+*{
+  margin: auto;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* Top nav bar container */
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(0, 153, 255);
+  height: 50%;
+}
+  #livestock_btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: ease-out 0.3s;
+    background-color: rgb(0, 153, 255);
+  }
+    #livestock_btn:hover{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 153, 255);
+      border: 3px solid rgb(0, 153, 255);
+    }
+
+  #water_btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: ease-out 0.3s;
+    background-color: rgb(0, 153, 255);
+  }
+    #water_btn:hover{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 153, 255);
+      border: 3px solid rgb(0, 153, 255);
+    }
+
+  #plants_btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: ease-out 0.3s;
+    background-color: rgb(0, 153, 255);
+  }
+    #plants_btn:hover{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 153, 255);
+      border: 3px solid rgb(0, 153, 255);
+    }
+
+  #coral_btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: ease-out 0.3s;
+    background-color: rgb(0, 153, 255);
+  }
+    #coral_btn:hover{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 153, 255);
+      border: 3px solid rgb(0, 153, 255);
+    }
+
+  #setup_btn{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    cursor: pointer;  
+    width: 150px;
+    height: 40px;
+    border-radius: 2rem;
+    color: rgb(255, 255, 255);
+    border: none;
+    transition: ease-out 0.3s;
+    background-color: rgb(0, 153, 255);
+  }
+    #setup_btn:hover{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 153, 255);
+      border: 3px solid rgb(0, 153, 255);
+    }
+
+
+/* Top left nav bar text */
+.logo{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+/* Top right nav bar buttons */
+.nav-buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  color: white;
+  width: 30%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+
+
+
+.title{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: rgb(0, 153, 255);
+  height: 38.9vh;
+  padding-top: 150px;
+  text-align: center;
+  
+}
+
+.landing-image{
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.wave{
+  position:absolute;
+  width: 100%;
+  height: auto;
+}
+
+.subhead{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-left: 20%;
+  padding-top: 13%;
+  color: white;
+  position:absolute;
+}
+
+.menu{
+  height: 500px;
+  color: black;
+}
+
+/* Livestock page CSS */
