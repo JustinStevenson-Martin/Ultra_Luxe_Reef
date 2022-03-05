@@ -217,9 +217,14 @@ nav{
   padding-left: 5em;
 }
 
+.legal {
+  padding-right: 5em;
+  text-align: right;
+}
+
 footer{
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 1fr 1fr;
   font-weight: 600;
   font-size: 1.25rem;
   color: white;
