@@ -213,9 +213,13 @@ nav{
   color: white;
 }
 
+.copyright {
+  padding-left: 5em;
+}
+
 footer{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 25% 75%;
   font-weight: 600;
   font-size: 1.25rem;
   color: white;
