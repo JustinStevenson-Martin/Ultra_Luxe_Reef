@@ -38,8 +38,9 @@ ul {
 
 /* Top nav bar container */
 nav{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -154,13 +155,12 @@ nav{
 
 /* Nav bar buttons */
 #nav-buttons{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   justify-content: space-around;
-  align-items: center;
-  padding-left: 50em;
   list-style: none;
   color: white;
-  width: 30%;
+  width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -187,7 +187,7 @@ nav{
   top: 0;
 }
 
-.title{
+.landing-title{
   font-size: 3rem;
   font-weight: 600;
   letter-spacing: 0.2rem;
@@ -212,7 +212,66 @@ nav{
   color: white;
 }
 
+footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(0, 153, 255);
+  height: 5vh;
+}
 /* Livestock page CSS */
+
+.livestock-container{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+  background-image: url(../Images/lifestock.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-size: 100%;
+  background-color: rgb(20, 20, 20);
+  position: relative;
+}
+
+.livestock-header {
+  height: 6vh;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(0, 0, 19, 0.5);
+  text-align: center;
+  position: absolute;
+}
+
+.livestock-title{
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  color: white;
+  text-align: center;
+}
+
+.livestock-subhead {
+  color: white;
+  text-align: center;
+  position: relative;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  border: 1px solid hotpink;
+  text-align: center;
+}
 
 
 /* Responsive sets */
